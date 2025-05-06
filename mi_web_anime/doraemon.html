@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon | Detalles</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para Doraemon */
+        .dora-theme {
+            color: #1E90FF;
+        }
+        .dora-theme .watch-info {
+            background: #E0F0FF;
+            border-left: 5px solid #1E90FF;
+        }
+        .anime-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cover-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cover-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border: 3px solid #1E90FF;
+        }
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .synopsis {
+            flex: 2;
+        }
+        .watch-info {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .back-button {
+            background: linear-gradient(135deg, #1E90FF, #00BFFF);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(30, 144, 255, 0.4);
+        }
+        .character-highlight {
+            background: #E0F0FF;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="dora-theme">Doraemon</h1>
+        <a href="index.html" class="back-button">📘 Volver al listado</a>
+    </header>
+
+    <main class="anime-detail">
+        <!-- Portada principal -->
+        <div class="cover-container">
+            <img src="imagenes/doraemon.jpg" alt="Portada Doraemon" class="cover-image">
+        </div>
+
+        <!-- Sección de información extendida -->
+        <div class="info-section">
+            <div class="synopsis">
+                <h2>Un gato robot del futuro que lo cambia todo</h2>
+                <p>Doraemon es un gato robot azul que viaja desde el siglo XXII al presente para ayudar a Nobita Nobi, un niño despistado y con mala suerte, a mejorar su vida y evitar un futuro desastroso para su descendencia. Equipado con un bolsillo mágico que contiene gadgets futuristas, Doraemon ayuda a Nobita en todo tipo de situaciones escolares, familiares y sociales.</p>
+
+                <p>Cada episodio presenta aventuras, lecciones de vida y momentos cómicos, con el uso de inventos como la "Puerta Mágica", el "Bambú-cóptero" o la "Capa de Invisibilidad". Sin embargo, el mal uso de estos gadgets suele causar más problemas que soluciones.</p>
+
+                <div class="character-highlight">
+                    <h3>La importancia de la amistad</h3>
+                    <p>Más allá de los inventos, Doraemon destaca por sus valores: amistad, perseverancia y bondad. Nobita, Shizuka, Gigante y Suneo representan las virtudes y defectos comunes de la infancia, generando situaciones con las que cualquier espectador puede identificarse.</p>
+                </div>
+
+                <h3>Personajes principales</h3>
+                <ul>
+                    <li><strong>Doraemon:</strong> Gato robot sabio y protector, con gadgets infinitos.</li>
+                    <li><strong>Nobita:</strong> Niño torpe y soñador con un gran corazón.</li>
+                    <li><strong>Shizuka:</strong> Inteligente, amable y la mejor amiga (y amor) de Nobita.</li>
+                    <li><strong>Gigante:</strong> Rudo pero leal, con voz terrible para cantar.</li>
+                    <li><strong>Suneo:</strong> Presumido y astuto, aunque inseguro en el fondo.</li>
+                </ul>
+
+                <h3>Temas recurrentes</h3>
+                <ol>
+                    <li><strong>Consecuencias del mal uso de tecnología</strong></li>
+                    <li><strong>Superación personal y esfuerzo diario</strong></li>
+                    <li><strong>Imaginación, ciencia y futuro</strong></li>
+                </ol>
+            </div>
+
+            <div class="watch-info dora-theme">
+                <h2>¿Dónde verla?</h2>
+                <div class="platform">
+                    <p>Episodios seleccionados en <a href="https://www.youtube.com/" target="_blank">YouTube</a> y plataformas infantiles.</p>
+                </div>
+                <div class="platform">
+                    <p>Algunas películas en <a href="https://www.netflix.com/" target="_blank">Netflix</a> (disponibilidad variable).</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

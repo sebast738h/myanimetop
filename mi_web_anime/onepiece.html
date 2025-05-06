@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece | Detalles</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para One Piece */
+        .op-theme {
+            color: #0077BE;
+        }
+        .op-theme .watch-info {
+            background: #E0F7FF;
+            border-left: 5px solid #0077BE;
+        }
+        .anime-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cover-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cover-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border: 3px solid #0077BE;
+        }
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .synopsis {
+            flex: 2;
+        }
+        .watch-info {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .back-button {
+            background: linear-gradient(135deg, #0077BE, #00BFFF);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 119, 190, 0.4);
+        }
+        .character-highlight {
+            background: #E0F7FF;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="op-theme">One Piece</h1>
+        <a href="index.html" class="back-button">🏴‍☠️ Volver al listado</a>
+    </header>
+
+    <main class="anime-detail">
+        <!-- Portada principal -->
+        <div class="cover-container">
+            <img src="imagenes/onepiece.avif" alt="Portada One Piece" class="cover-image">
+        </div>
+
+        <!-- Sección de información extendida -->
+        <div class="info-section">
+            <div class="synopsis">
+                <h2>En busca del tesoro más grande del mundo</h2>
+                <p>One Piece sigue las aventuras de Monkey D. Luffy, un joven pirata con el cuerpo de goma tras comer una Fruta del Diablo. Su sueño es encontrar el legendario tesoro "One Piece" y convertirse en el Rey de los Piratas. Para lograrlo, reúne una tripulación leal y navega por los mares del mundo, enfrentando a poderosos enemigos y descubriendo misterios ocultos.</p>
+
+                <p>Desde East Blue hasta el Nuevo Mundo, los Sombrero de Paja enfrentan a la Marina, el Gobierno Mundial, y a otros piratas en su camino hacia la Grand Line.</p>
+
+                <div class="character-highlight">
+                    <h3>Las Frutas del Diablo</h3>
+                    <p>Otorgan habilidades sobrenaturales a cambio de perder la capacidad de nadar. Hay tres tipos: Paramecia (cambios físicos), Zoan (transformaciones animales) y Logia (elementales). Luffy posee la Gomu Gomu no Mi... o eso se creía.</p>
+                </div>
+
+                <h3>Arcos legendarios</h3>
+                <ul>
+                    <li><strong>Enies Lobby:</strong> Luffy y su tripulación declaran la guerra al Gobierno Mundial para rescatar a Nico Robin.</li>
+                    <li><strong>Marineford:</strong> Una guerra épica para salvar a Ace. Marca un antes y un después en la historia.</li>
+                    <li><strong>Whole Cake Island:</strong> Luffy desafía a uno de los Yonkou: Big Mom.</li>
+                    <li><strong>Wano:</strong> Una rebelión contra el emperador Kaido con alianzas inesperadas.</li>
+                </ul>
+
+                <h3>Elementos del universo One Piece</h3>
+                <ol>
+                    <li><strong>Frutas del Diablo:</strong> Conceden habilidades únicas con una gran desventaja.</li>
+                    <li><strong>Haki:</strong> Energía espiritual que permite sentir, endurecer y dominar a los enemigos.</li>
+                    <li><strong>Los Yonkou y el Gobierno Mundial:</strong> Fuerzas que dominan los mares.</li>
+                </ol>
+            </div>
+
+            <div class="watch-info op-theme">
+                <h2>¿Dónde verla?</h2>
+                <div class="platform">
+                    <p>One Piece está disponible en <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a> (sub y doblaje)</p>
+                </div>
+                <div class="platform">
+                    <p>Arcos selectos en <a href="https://www.netflix.com/" target="_blank">Netflix</a></p>
+                </div>
+                <div class="platform">
+                    <p>Live action de One Piece también en <a href="https://www.netflix.com/" target="_blank">Netflix</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

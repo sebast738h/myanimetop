@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball | Detalles</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para Dragon Ball */
+        .db-theme {
+            color: #FF4500;
+        }
+        .db-theme .watch-info {
+            background: #FFF0E0;
+            border-left: 5px solid #FF4500;
+        }
+        .anime-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cover-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cover-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border: 3px solid #FF4500;
+        }
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .synopsis {
+            flex: 2;
+        }
+        .watch-info {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .back-button {
+            background: linear-gradient(135deg, #FF4500, #FFA500);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 69, 0, 0.4);
+        }
+        .character-highlight {
+            background: #FFF0E0;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="db-theme">Dragon Ball</h1>
+        <a href="index.html" class="back-button">🔥 Volver al listado</a>
+    </header>
+
+    <main class="anime-detail">
+        <!-- Portada principal -->
+        <div class="cover-container">
+            <img src="imagenes/dragonball.avif" alt="Portada Dragon Ball" class="cover-image">
+        </div>
+
+        <!-- Sección de información extendida -->
+        <div class="info-section">
+            <div class="synopsis">
+                <h2>La leyenda del Saiyajin</h2>
+                <p>Dragon Ball narra las aventuras de Son Goku, un niño con cola de mono y fuerza sobrehumana, que inicia su viaje en busca de las legendarias esferas del dragón. A lo largo de su vida, Goku entrena sin descanso, conoce amigos fieles y se enfrenta a poderosos enemigos para proteger la Tierra y el universo.</p>
+
+                <p>La saga se divide en varias etapas: *Dragon Ball* (infancia de Goku), *Dragon Ball Z* (la llegada de los Saiyajins, Freezer, Cell y Majin Buu), *Dragon Ball Super* (multiverso y dioses), y *GT* (aventuras cósmicas no canónicas).</p>
+
+                <div class="character-highlight">
+                    <h3>Transformaciones Saiyajin</h3>
+                    <p>Desde el Super Saiyajin hasta el Ultra Instinto, Goku y Vegeta alcanzan nuevas formas que desafían los límites del poder. Estas transformaciones son clave en las batallas decisivas contra villanos como Freezer, Cell, Majin Buu, Bills y Jiren.</p>
+                </div>
+
+                <h3>Arcos principales</h3>
+                <ul>
+                    <li><strong>Saga de Freezer:</strong> En Namek, Goku se transforma en Super Saiyajin por primera vez para derrotar al tirano galáctico.</li>
+                    <li><strong>Saga de Cell:</strong> Un bioandroide amenaza con absorber a los guerreros más poderosos. Gohan alcanza el SSJ2.</li>
+                    <li><strong>Saga de Majin Buu:</strong> Una entidad mágica con múltiples formas que lleva a Goku a usar la fusión y la Genkidama.</li>
+                    <li><strong>Torneo del Poder (DBS):</strong> Universos compiten por su existencia en un torneo cósmico supervisado por Zeno-sama.</li>
+                </ul>
+
+                <h3>Elementos clave del universo Dragon Ball</h3>
+                <ol>
+                    <li><strong>Esferas del Dragón:</strong> Reúne las siete para invocar al dragón y pedir un deseo.</li>
+                    <li><strong>Ki:</strong> Energía vital que los guerreros controlan para volar, lanzar ataques y transformarse.</li>
+                    <li><strong>Fusiones:</strong> Como Gogeta y Vegetto, combinan dos guerreros en uno solo más poderoso.</li>
+                </ol>
+            </div>
+
+            <div class="watch-info db-theme">
+                <h2>¿Dónde verla?</h2>
+                <div class="platform">
+                    <p><strong>Dragon Ball, Z, Super</strong> disponibles en <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a></p>
+                </div>
+                <div class="platform">
+                    <p>Algunas sagas también en <a href="https://www.netflix.com/" target="_blank">Netflix</a> y <a href="https://www.hbomax.com/" target="_blank">HBO Max</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

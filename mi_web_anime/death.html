@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Note | Detalles</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para Death Note */
+        .dn-theme {
+            color: #111;
+        }
+        .dn-theme .watch-info {
+            background: #f5f5f5;
+            border-left: 5px solid #111;
+        }
+        .anime-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cover-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cover-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border: 3px solid #111;
+        }
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .synopsis {
+            flex: 2;
+        }
+        .watch-info {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .back-button {
+            background: linear-gradient(135deg, #111, #444);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+        .character-highlight {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="dn-theme">Death Note</h1>
+        <a href="index.html" class="back-button">📓 Volver al listado</a>
+    </header>
+
+    <main class="anime-detail">
+        <!-- Portada principal -->
+        <div class="cover-container">
+            <img src="imagenes/deathnote.avif" alt="Portada Death Note" class="cover-image">
+        </div>
+
+        <!-- Sección de información extendida -->
+        <div class="info-section">
+            <div class="synopsis">
+                <h2>¿Qué harías si tuvieras el poder de matar?</h2>
+                <p>Death Note sigue a Light Yagami, un estudiante brillante y aburrido que encuentra un cuaderno sobrenatural llamado "Death Note", el cual permite matar a cualquier persona con solo escribir su nombre mientras se imagina su rostro. Esta libreta fue dejada en el mundo humano por Ryuk, un shinigami (dios de la muerte) que deseaba entretenerse.</p>
+
+                <p>Light decide usar el Death Note para eliminar criminales y crear un nuevo mundo libre de maldad, posicionándose como una figura conocida como “Kira”. Sin embargo, su accionar despierta la atención de L, un enigmático detective que usará todos sus recursos para atraparlo.</p>
+
+                <div class="character-highlight">
+                    <h3>El duelo de mentes</h3>
+                    <p>El enfrentamiento entre Light y L es una batalla intelectual cargada de tensión, engaños y estrategias complejas, donde el menor error puede significar la muerte. Ambos buscan justicia, pero desde perspectivas completamente opuestas.</p>
+                </div>
+
+                <h3>Temas principales</h3>
+                <ul>
+                    <li><strong>Justicia vs. Poder absoluto:</strong> ¿Quién decide quién merece vivir o morir?</li>
+                    <li><strong>Identidad y moralidad:</strong> El uso del poder corrompe a Light progresivamente.</li>
+                    <li><strong>Determinismo vs. libre albedrío:</strong> El impacto del Death Note en el mundo humano.</li>
+                </ul>
+
+                <h3>Reglas clave del Death Note</h3>
+                <ol>
+                    <li>La persona cuyo nombre se escribe morirá.</li>
+                    <li>Debe tenerse en mente el rostro para evitar confusión entre personas con el mismo nombre.</li>
+                    <li>Se puede especificar la causa y hora de la muerte; si no, morirá de un ataque al corazón.</li>
+                </ol>
+            </div>
+
+            <div class="watch-info dn-theme">
+                <h2>¿Dónde verla?</h2>
+                <div class="platform">
+                    <p>Serie completa disponible en <a href="https://www.netflix.com/" target="_blank">Netflix</a> (sub y doblada al español).</p>
+                </div>
+                <div class="platform">
+                    <p>También en <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

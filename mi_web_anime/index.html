@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web de Anime</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            overflow-y: hidden; /* Eliminar el scroll vertical */
+        }
+        
+        header {
+            background: linear-gradient(135deg, #d1d9e0, #d1d9e0);
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        .anime-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+            max-height: 100vh; /* Limitar la altura del contenedor */
+            overflow-y: auto; /* Habilitar scroll solo si es necesario */
+        }
+
+        .anime-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .anime-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .anime-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px 12px 0 0;
+        }
+
+        .anime-card h3 {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .anime-card p {
+            font-size: 1rem;
+            margin: 0 15px 20px;
+            color: #555;
+        }
+
+        .anime-card a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Colores representativos para cada anime */
+        .jujutsu { border-bottom: 4px solid #8e44ad; }
+        .demon { border-bottom: 4px solid #f39c12; }
+        .dragon { border-bottom: 4px solid #2980b9; }
+        .naruto { border-bottom: 4px solid #e67e22; }
+        .onepiece { border-bottom: 4px solid #27ae60; }
+        .death { border-bottom: 4px solid #c0392b; }
+        .chainsaw { border-bottom: 4px solid #f1c40f; }
+        .attack { border-bottom: 4px solid #34495e; }
+        .doraemon { border-bottom: 4px solid #1abc9c; }
+        .alyasan { border-bottom: 4px solid #e74c3c; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎌🎌🎌 Top 10 Animes que debes ver antes de morir 🎌🎌🎌</h1>
+    </header>
+    <main>
+        <section class="anime-list">
+            <h2 style="font-size: 2.5rem; font-weight: bold; background: linear-gradient(135deg, #6A4C4C, #E2B7B7); -webkit-background-clip: text; background-clip: text; color: transparent; text-align: center; letter-spacing: 1px;">La esencia del anime en una lista que no te puedes perder</h2>
+
+            <!-- Jujutsu Kaisen -->
+            <div class="anime-card jujutsu">
+                <a href="jujutsu.html">
+                    <img src="imagenes/jujutsukaisen.avif" alt="Jujutsu Kaisen">
+                </a>
+                <h3>1.- Jujutsu Kaisen</h3>
+                <p>Yuji Itadori se convierte en huésped de una maldición poderosa mientras lucha contra maldiciones.</p>
+            </div>
+
+            <!-- Demon Slayer -->
+            <div class="anime-card demon">
+                <a href="demon.html">
+                    <img src="imagenes/demonslayer.avif" alt="Demon Slayer">
+                </a>
+                <h3>2.- Demon Slayer</h3>
+                <p>Tanjiro emprende una aventura para salvar a su hermana Nezuko y matar demonios.</p>
+            </div>
+
+            <!-- Dragon Ball -->
+            <div class="anime-card dragon">
+                <a href="dragon.html">
+                    <img src="imagenes/dragonball.avif" alt="Dragon Ball">
+                </a>
+                <h3>3.- Dragon Ball</h3>
+                <p>Goku y sus amigos protegen la Tierra de villanos intergalácticos con increíbles poderes.</p>
+            </div>
+
+            <!-- Naruto -->
+            <div class="anime-card naruto">
+                <a href="naruto.html">
+                    <img src="imagenes/naruto.avif" alt="Naruto">
+                </a>
+                <h3>4.- Naruto</h3>
+                <p>Naruto Uzumaki, un ninja marginado, sueña con convertirse en Hokage de su aldea.</p>
+            </div>
+
+            <!-- One Piece -->
+            <div class="anime-card onepiece">
+                <a href="onepiece.html">
+                    <img src="imagenes/onepiece.avif" alt="One Piece">
+                </a>
+                <h3>5.- One Piece</h3>
+                <p>Luffy y su tripulación buscan el tesoro legendario para convertirse en Reyes de los Piratas.</p>
+            </div>
+
+            <!-- Death Note -->
+            <div class="anime-card death">
+                <a href="death.html">
+                    <img src="imagenes/deathnote.avif" alt="Death Note">
+                </a>
+                <h3>6.- Death Note</h3>
+                <p>Light Yagami usa un cuaderno sobrenatural para eliminar criminales y gobernar el mundo.</p>
+            </div>
+
+            <!-- Chainsaw Man -->
+            <div class="anime-card chainsaw">
+                <a href="chainsaw.html">
+                    <img src="imagenes/chainsawman.avif" alt="Chainsaw Man">
+                </a>
+                <h3>7.- Chainsaw Man</h3>
+                <p>Denji, un cazador de demonios pobre, se fusiona con su mascota y gana poderes de motosierra.</p>
+            </div>
+
+            <!-- Attack on Titan -->
+            <div class="anime-card attack">
+                <a href="attackontitan.html">
+                    <img src="imagenes/attackontitan.avif" alt="Attack on Titan">
+                </a>
+                <h3>8.- Attack on Titan</h3>
+                <p>Eren y sus amigos luchan contra titanes que devoran humanos en un mundo postapocalíptico.</p>
+            </div>
+
+            <!-- Doraemon -->
+            <div class="anime-card doraemon">
+                <a href="doraemon.html">
+                    <img src="imagenes/doraemon.jpg" alt="Doraemon">
+                </a>
+                <h3>9.- Doraemon</h3>
+                <p>Un gato robot del futuro ayuda a Nobita con inventos absurdos y problemas cotidianos.</p>
+            </div>
+
+            <!-- Alya Sometimes Hides Her Feelings in Russian -->
+            <div class="anime-card alyasan">
+                <a href="roshidere.html">
+                    <img src="imagenes/roshidere.jpg" alt="Alya-san">
+                </a>
+                <h3>10.- Alya Sometimes Hides Her Feelings in Russian</h3>
+                <p>Alya expresa sus sentimientos en ruso, sin saber que el prota la entiende todo.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
